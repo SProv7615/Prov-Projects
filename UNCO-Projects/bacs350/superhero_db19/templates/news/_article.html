@@ -1,0 +1,12 @@
+<div class="card width-col-lg-6 my-3">        
+    <div class="card bg-'static/images/newspaper.png'">             
+        <div class="card-header bg-dark text-light">                   
+            <h2>{{ object.title }}</h2>                  
+        </div>                
+        <div class="class-body text-dark">
+            {% autoescape off %}
+                 {{ object.body }}
+            {% endautoescape %}
+        </div>                   
+    </div>             
+</div>         
